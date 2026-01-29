@@ -39,7 +39,7 @@ export default function Navbar() {
               </Link>
 
               <DropdownMenu>
-                <DropdownMenuTrigger>
+                <DropdownMenuTrigger asChild>
                   <Button
                     variant="ghost"
                     className="cursor-pointer relative h-8 w-8 rounded-full"
